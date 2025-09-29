@@ -35,7 +35,14 @@ Output:
 eambut
 ```
 
-## Problem 2
+```java
+public static void lastFirstN(String s1, String s2, int n)
+{
+
+}
+```
+
+## Problem 2 - stringManip
 Write a void method named `stringManip` that takes in two strings as input, and prints the following:
 * The first string in all upper case,
 * The second string with only its first letter to upper case, with the rest being lower case
@@ -54,4 +61,38 @@ But this code will give me the proper upper case version of my word.
 String s = new String("hello");
 String s2 = s.toUpperCase();  // option 1
 s = s.toUpperCase();  // option 2
+```
+
+```java
+public static void stringManip(String s1, String s2)
+{
+
+}
+```
+
+## Problem 3 - removeStr
+Write a method named `removeStr` that takes in two Strings as input:
+* The first, `s1`, is a word, phrase, or sentence
+* The second, `s2`, is a substring of `s1`.
+
+The method will remove the first instance of `s2` from `s1`, and return the new String with `s2` removed from it.
+
+**Sample Run**
+```
+Sample Inputs:
+badaboom
+ada
+
+Sample Output:
+bboom  // the substring "ada" has been removed
+```
+
+Assume that `s2` will always be found at least one time in `s1`.
+
+```java
+public static String removeStr(String s1, String s2)
+{
+  String output = null;
+  return output;
+}
 ```
