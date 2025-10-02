@@ -27,7 +27,7 @@ public class Main
     String changed1 = s1.substring(0, index);
     String changed2 = s1.substring(index + s2length);
     String finalchanged = changed1 + changed2;
-
+    
     return finalchanged;
   }
 
@@ -58,3 +58,5 @@ public class Main
       
   }
 }
+
+
